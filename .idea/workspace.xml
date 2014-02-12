@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2888889" vertical-offset="0" max-vertical-offset="3510">
+            <state line="224" column="6" selection-start="8135" selection-end="8135" vertical-scroll-proportion="0.7777778" vertical-offset="2835" max-vertical-offset="3510">
               <folding />
             </state>
           </provider>
@@ -234,7 +234,11 @@
       <created>1392206452185</created>
       <updated>1392206452185</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="title change">
+      <created>1392206558166</created>
+      <updated>1392206558166</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -275,7 +279,8 @@
     <MESSAGE value="Redesign and cleanup" />
     <MESSAGE value="Add cv" />
     <MESSAGE value="cleanup pretty print" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup pretty print" />
+    <MESSAGE value="title change" />
+    <option name="LAST_COMMIT_MESSAGE" value="title change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -316,7 +321,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2888889" vertical-offset="0" max-vertical-offset="3510">
+        <state line="224" column="6" selection-start="8135" selection-end="8135" vertical-scroll-proportion="0.7777778" vertical-offset="2835" max-vertical-offset="3510">
           <folding />
         </state>
       </provider>
