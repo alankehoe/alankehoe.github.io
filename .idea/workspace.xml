@@ -29,16 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="95" selection-start="4405" selection-end="4405" vertical-scroll-proportion="0.37777779" vertical-offset="1500" max-vertical-offset="3510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="948" column="62" selection-start="17393" selection-end="17393" vertical-scroll-proportion="0.0" vertical-offset="13581" max-vertical-offset="20760">
+            <state line="13" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2888889" vertical-offset="0" max-vertical-offset="3510">
               <folding />
             </state>
           </provider>
@@ -114,20 +105,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="alankehoe.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alankehoe.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alankehoe.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,7 +230,11 @@
       <created>1392206219308</created>
       <updated>1392206219308</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cleanup pretty print">
+      <created>1392206452185</created>
+      <updated>1392206452185</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -293,7 +274,8 @@
     <MESSAGE value="remove idea" />
     <MESSAGE value="Redesign and cleanup" />
     <MESSAGE value="Add cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cv" />
+    <MESSAGE value="cleanup pretty print" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup pretty print" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -327,14 +309,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="948" column="62" selection-start="17393" selection-end="17393" vertical-scroll-proportion="0.0" vertical-offset="13581" max-vertical-offset="20760">
+        <state line="948" column="62" selection-start="17393" selection-end="17393" vertical-scroll-proportion="20.343348" vertical-offset="0" max-vertical-offset="20760">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="95" selection-start="4405" selection-end="4405" vertical-scroll-proportion="0.37777779" vertical-offset="1500" max-vertical-offset="3510">
+        <state line="13" column="34" selection-start="283" selection-end="283" vertical-scroll-proportion="0.2888889" vertical-offset="0" max-vertical-offset="3510">
           <folding />
         </state>
       </provider>
