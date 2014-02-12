@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="6" selection-start="8135" selection-end="8135" vertical-scroll-proportion="0.7777778" vertical-offset="2835" max-vertical-offset="3510">
+            <state line="219" column="27" selection-start="7948" selection-end="7948" vertical-scroll-proportion="0.64444447" vertical-offset="2850" max-vertical-offset="3555">
               <folding />
             </state>
           </provider>
@@ -105,6 +105,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="alankehoe.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alankehoe.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alankehoe.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,7 +252,11 @@
       <created>1392206558166</created>
       <updated>1392206558166</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="dont open new window when downloading cv">
+      <created>1392206716599</created>
+      <updated>1392206716599</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -250,7 +268,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24921875" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24921875" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -280,7 +298,8 @@
     <MESSAGE value="Add cv" />
     <MESSAGE value="cleanup pretty print" />
     <MESSAGE value="title change" />
-    <option name="LAST_COMMIT_MESSAGE" value="title change" />
+    <MESSAGE value="dont open new window when downloading cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="dont open new window when downloading cv" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -312,16 +331,21 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/facebook.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="948" column="62" selection-start="17393" selection-end="17393" vertical-scroll-proportion="20.343348" vertical-offset="0" max-vertical-offset="20760">
+        <state line="449" column="0" selection-start="7552" selection-end="7552" vertical-scroll-proportion="-0.09585121" vertical-offset="6802" max-vertical-offset="20760">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="6" selection-start="8135" selection-end="8135" vertical-scroll-proportion="0.7777778" vertical-offset="2835" max-vertical-offset="3510">
+        <state line="219" column="27" selection-start="7948" selection-end="7948" vertical-scroll-proportion="0.64444447" vertical-offset="2850" max-vertical-offset="3555">
           <folding />
         </state>
       </provider>
