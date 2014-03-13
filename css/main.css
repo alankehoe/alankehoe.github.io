@@ -900,14 +900,14 @@ ul.tweet_list li {
 	}
 	
 .python {
-	width:60%;
+	width:70%;
 	-moz-animation:python 2s ease-out;
 	-webkit-animation:python 2s ease-out;
 	background:#3a7aa6;
 	}
 	
 .ruby {
-	width:65%;
+	width:80%;
 	-moz-animation:ruby 2s ease-out;
 	-webkit-animation:ruby 2s ease-out;
 	background:#627076;
@@ -928,25 +928,25 @@ ul.tweet_list li {
 	}
 
 .javascript {
-    width:40%;
+    width:60%;
     -moz-animation:javascript 2s ease-out;
     -webkit-animation:javascript 2s ease-out;
     background:#3a7aa6;
 }
 
 @-moz-keyframes java { 0% { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes python { 0% { width:0px;} 100%{ width:60%;}  }
-@-moz-keyframes ruby { 0% { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes python { 0% { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes ruby { 0% { width:0px;} 100%{ width:80%;}  }
 @-moz-keyframes html { 0% { width:0px;} 100%{ width:80%;} }
 @-moz-keyframes css { 0% { width:0px;} 100%{ width:50%;} }
-@-moz-keyframes javascript { 0% { width:0px;} 100%{ width:40%;} }
+@-moz-keyframes javascript { 0% { width:0px;} 100%{ width:60%;} }
 
 @-webkit-keyframes java { 0% { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes python { 0% { width:0px;} 100%{ width:60%;}  }
-@-webkit-keyframes ruby { 0% { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes python { 0% { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes ruby { 0% { width:0px;} 100%{ width:80%;}  }
 @-webkit-keyframes html { 0% { width:0px;} 100%{ width:80%;} }
 @-webkit-keyframes css { 0% { width:0px;} 100%{ width:50%;} }
-@-webkit-keyframes javascript { 0% { width:0px;} 100%{ width:40%;} }
+@-webkit-keyframes javascript { 0% { width:0px;} 100%{ width:60%;} }
 
 /*  END OF SKILLS */
 
