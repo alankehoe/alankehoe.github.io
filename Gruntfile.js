@@ -44,6 +44,10 @@ module.exports = function (grunt) {
                 }
             }
         },
+        clean: {
+            js: ["dist/*.js", "!dist/*.min.js"],
+            css: ["dist/*.css", "!dist/*.min.css"]
+        },
         watch: {
             css: {
                 files: ['assets/less/**/*.less'],
@@ -61,6 +65,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
-    grunt.registerTask('build', ['less', 'concat', 'uglify', 'cssmin']);
+    grunt.registerTask('build', ['less', 'concat', 'uglify', 'cssmin', 'clean']);
 };
