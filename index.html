@@ -5,11 +5,32 @@
     <title>Alan Kehoe | Software Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
     <meta name='keywords' content="web design, development, css, html5, java, python, ruby,
-          javascript, linux, windows, osx, virtualization, system administration"></head>
-    <link rel="stylesheet" type="text/css" href="dist/alankehoe.github.io.min.css">
-    <script type="text/javascript" src="dist/alankehoe.github.io.min.js"></script>
+          javascript, linux, windows, osx, virtualization, system administration">
 </head>
-<body>
-<ng-view></ng-view>
+<link rel="stylesheet" type="text/css" href="dist/alankehoe.github.io.min.css">
+<script type="text/javascript" src="dist/alankehoe.github.io.min.js"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+    <nav class='navbar navbar-default navbar-inverse' role='navigation'>
+        <div class='container-fluid'>
+            <div class='navbar-header'>
+                <button class='navbar-toggle' ng-click='navCollapsed = !navCollapsed' type='button'>
+                    <span class='icon-bar' ng-repeat="i in [1,2,3]"></span>
+                </button>
+                <a class='navbar-brand' href='#'>Alan Kehoe</a>
+            </div>
+
+            <div class='collapse navbar-collapse navbar-right' collapse='!navCollapsed'>
+                <ul class='nav navbar-nav'>
+                    <li><a href='#'>Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        hello how are you <i class="fa fa-user"></i>
+    </div>
 </body>
 </html>

@@ -10,19 +10,17 @@ module.exports = function (grunt) {
         less: {
             'alankehoe.github.io': {
                 files: {
-                    'dist/<%= pkg.name %>.css': ["assets/less/app.less"]
+                    'dist/<%= pkg.name %>.css': ["assets/app.less"]
                 }
             }
         },
         concat: {
             'alankehoe.github.io': {
                 src: [
-                    'assets/vendor/bower/angular/angular.js',
-                    'assets/vendor/bower/angular-route/angular-route.js',
-                    'assets/vendor/bower/angular-animate/angular-animate.js',
-                    'assets/vendor/bower/angular-bootstrap/ui-bootstrap.js',
-                    'assets/vendor/bower/angular-bootstrap/ui-bootstrap-tpls.js',
-                    'assets/js/app.js'
+                    'bower_components/angular/angular.js',
+                    'bower_components/angular-bootstrap/ui-bootstrap.js',
+                    'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
+                    'assets/app.js'
                 ],
                 dest: 'dist/<%= pkg.name %>.js'
             }
