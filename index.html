@@ -12,6 +12,11 @@
 </head>
 
 <body ng-controller="MainCtrl">
+<div ng-show="!ready">
+    <div class="loader">Loading...</div>
+</div>
+
+<div ng-show="ready">
 <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
     <div class='container-fluid'>
         <div class='navbar-header'>
@@ -294,6 +299,6 @@
     </div>
 </div>
 <!--End Footer-->
-
+</div>
 </body>
 </html>
