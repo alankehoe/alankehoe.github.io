@@ -139,20 +139,22 @@ h4 {
   border-right: 1px solid @white;
 }
 
-.ih-item.square {
-  position: relative;
-  width: 316px;
-  height: 216px;
-  border: 4px solid @navbar-inverse-bg;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-}
+.ih-item {
+  &.square {
+    position: relative;
+    width: 316px;
+    height: 216px;
+    border: 4px solid @navbar-inverse-bg;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
 
-.ih-item.square.profile {
-  position: relative;
-  width: 220px;
-  height: 220px;
-  border: 0px solid @navbar-inverse-bg;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  &.profile {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border: 0px solid @navbar-inverse-bg;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .loader {
@@ -171,30 +173,32 @@ h4 {
   position: relative;
   -webkit-animation: load3 1.4s infinite linear;
   animation: load3 1.4s infinite linear;
+
+  &:before {
+    width: 50%;
+    height: 50%;
+    background: #FFF;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+  }
+  &:after {
+    background: @default-background;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
 }
-.loader:before {
-  width: 50%;
-  height: 50%;
-  background: #FFF;
-  border-radius: 100% 0 0 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: '';
-}
-.loader:after {
-  background: @default-background;
-  width: 75%;
-  height: 75%;
-  border-radius: 50%;
-  content: '';
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
+
 @-webkit-keyframes load3 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -205,6 +209,7 @@ h4 {
     transform: rotate(360deg);
   }
 }
+
 @keyframes load3 {
   0% {
     -webkit-transform: rotate(0deg);
