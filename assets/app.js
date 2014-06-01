@@ -22,7 +22,7 @@ angular.module('alankehoe.github.io', ['ui.bootstrap'])
             {
                 href: 'mailto:alan.kehoe8@mail.dcu.ie?subject=Seen your resume on alankehoe.github.io',
                 text: 'Alan.Kehoe8@mail.dcu.ie',
-                icon: 'fa-envelope-o'
+                icon: 'fa-pencil'
             },
             {
                 href: 'https://www.google.com/maps/place/Dublin/',
