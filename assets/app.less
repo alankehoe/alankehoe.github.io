@@ -42,6 +42,7 @@ p {
 a {
   font-size: 14px;
   color: @white;
+  &:active,
   &:hover {
     text-decoration: none;
     color: darken(@active-link, 20%);
@@ -61,12 +62,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-}
-
-h4 {
-  small {
-    color: @white;
-  }
 }
 
 .container {
@@ -122,21 +117,16 @@ h4 {
   .transition(width .6s ease);
 }
 
-.odd {
+.content-row {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: @default-background;
-}
+  &.odd {
+    background: @default-background;
+  }
 
-.even {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: @navbar-inverse-bg;
-}
-
-.about-me {
-  padding-left: 40px;
-  border-right: 1px solid @white;
+  &.even {
+    background: @navbar-inverse-bg;
+  }
 }
 
 .ih-item {
