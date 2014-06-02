@@ -18,8 +18,6 @@ module.exports = function (grunt) {
             'alankehoe.github.io': {
                 src: [
                     'bower_components/angular/angular.js',
-                    'bower_components/angular-bootstrap/ui-bootstrap.js',
-                    'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
                     'assets/app.js'
                 ],
                 dest: 'dist/<%= pkg.name %>.js'

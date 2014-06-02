@@ -1,4 +1,4 @@
-angular.module('alankehoe.github.io', ['ui.bootstrap'])
+angular.module('alankehoe.github.io', [])
 
     .controller('MainCtrl', ['$scope', '$timeout', function ($scope, $timeout) {
         $scope.arrayToMatrix = function (list, howMany) {
