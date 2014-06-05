@@ -1,4 +1,4 @@
-angular.module('alankehoe.github.io', [])
+angular.module('alankehoe.github.io', ['angulartics', 'angulartics.google.analytics'])
 
     .controller('MainCtrl', ['$scope', '$timeout', function ($scope, $timeout) {
         $scope.arrayToMatrix = function (list, howMany) {

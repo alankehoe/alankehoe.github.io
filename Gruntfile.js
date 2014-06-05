@@ -18,6 +18,8 @@ module.exports = function (grunt) {
             'alankehoe.github.io': {
                 src: [
                     'bower_components/angular/angular.js',
+                    'bower_components/angulartics/src/angulartics.js',
+                    'bower_components/angulartics/src/angulartics-ga.js',
                     'assets/app.js'
                 ],
                 dest: 'dist/<%= pkg.name %>.js'
