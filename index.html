@@ -11,10 +11,17 @@
 <script type="text/javascript" src="dist/alankehoe.github.io.min.js"></script>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-40735721-2', 'alankehoe.github.io');
 </script>
@@ -30,13 +37,13 @@
     <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
         <div class='container-fluid'>
             <div class='navbar-header'>
-                <button class='navbar-toggle' ng-click='navCollapsed = !navCollapsed' type='button'>
+                <button class='navbar-toggle' ng-click='isCollapsed = !isCollapsed' type='button'>
                     <span class='icon-bar' ng-repeat="i in [1,2,3]"></span>
                 </button>
                 <a class='navbar-brand' href='#'>Alan Kehoe</a>
             </div>
 
-            <div class='collapse navbar-collapse navbar-right' collapse='!navCollapsed'>
+            <div class='collapse navbar-collapse navbar-right' collapse='isCollapsed'>
                 <ul class='nav navbar-nav'>
                     <li><a href='#skills'>Skills</a></li>
                     <li><a href='#skills'>Education</a></li>
@@ -53,6 +60,12 @@
     <div class="row content-row odd">
         <div class="container">
             <div class="col-lg-12">
+                <div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+                    <img src="assets/img/profile.jpg" class="img-responsive"
+                         style="margin-left: auto; margin-right: auto;">
+                    <br>
+                </div>
+
                 <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                     <div class="ih-item profile">
                         <a href="#">
@@ -71,11 +84,14 @@
                     </h3>
 
                     <p>
-                        My main interests are software development, web applications and linux administration.
-                        I have had the opportunity at DCU to create some nice projects such as the PiMyRide in 3rd year
-                        and my current project FleetOnRails. I also administrate 1 dedicated linux server (proxmox)
-                        for personal use and for hosting projects on. I have a keen interest in open source technologies
-                        and like to keep up to date with the newest technology available.
+                        I am a DCU graduate (computer applications), I have a passion for software development with a
+                        particular interest in building full stack web applications.
+
+                        I have experience working with Java, Ruby, Python, SQL, Javascript, Bash, TDD. I also have some
+                        experience working with Linux administration and virtualisation. My final year project was a
+                        Fleet management and tracking application which used AngularJS, Ruby on Rails and Android and
+                        prior to that my third year project was a open source car computer / logging tool which used
+                        python to read serial data from a cars diagnostic port.
                     </p>
 
                     <div class="row">
@@ -162,7 +178,7 @@
                     <li ng-repeat="interest in interests">{{interest}}</li>
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" ng-repeat="column in arrayToMatrix(interests, 3)">
+            <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs" ng-repeat="column in interestMatrix">
                 <ul>
                     <li ng-repeat="interest in column">{{interest}}</li>
                 </ul>
