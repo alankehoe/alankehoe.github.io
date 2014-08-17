@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Who am I
-tags: [about, Jekyll, theme, responsive]
+tags: []
 image:
   feature: feature-01.jpg
 ---
