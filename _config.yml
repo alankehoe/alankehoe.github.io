@@ -4,7 +4,6 @@ title:            Alan Kehoe
 locale:           en_US
 url:              http://localhost:4000
 
-
 # Jekyll configuration
 
 permalink:   /:categories/:title/
@@ -23,12 +22,11 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-
 # Site owner
 owner:
   name: Alan Kehoe
   avatar: bio-photo.jpg
-  bio: "Full stack web developer with a passion for technology."
+  bio:
   email: alankehoe111@gmail.com
   disqus-shortname: 
   twitter: alankehoe_
@@ -41,8 +39,8 @@ owner:
     ad-slot: 
   bing-verify: 
   github: alankehoe
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  stackoverflow: 2455488/alan-kehoe
+  linkedin: alankehoe111
   instagram: #username
 
 include: [".htaccess"]
