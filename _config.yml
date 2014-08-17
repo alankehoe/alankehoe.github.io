@@ -26,22 +26,22 @@ kramdown:
 owner:
   name: Alan Kehoe
   avatar: bio-photo.jpg
-  bio:
+#  bio:
   email: alankehoe111@gmail.com
-  disqus-shortname: 
-  twitter: alankehoe_
+#  disqus-shortname:
+#  twitter: alankehoe_
   facebook: kehoea8
-  google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
+#  google:
+#    plus:
+#    analytics:
+#    verify:
+#    ad-client:
+#    ad-slot:
+#  bing-verify:
   github: alankehoe
   stackoverflow: 2455488/alan-kehoe
   linkedin: alankehoe111
-  instagram: #username
+#  instagram:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

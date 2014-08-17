@@ -5,6 +5,8 @@ image:
   feature: feature-01.jpg
 ---
 
+# Who am I
+
 I am a DCU graduate (computer applications), I have a passion for software development with a particular 
 interest in building full stack web applications. I have experience working with 
 Java, Ruby, Python, SQL, Javascript, Bash, TDD. I also have some experience working with Linux administration 
