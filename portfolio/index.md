@@ -5,16 +5,17 @@ image:
   feature: feature-01.jpg
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+# FleetOnRails
+<figure>
+	<a href="http://blog.fleetonrails.eu"><img src="/images/portfolio/fleetonrails.png"></a>
+</figure>
 
-## Minimal Mistakes is all about:
+# Ziemniak
+<figure>
+	<a href="https://github.com/alankehoe/ziemniak"><img src="/images/portfolio/ziemniak.png"></a>
+</figure>
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+# PiMyRide
+<figure>
+	<a href="http://pimyride.com"><img src="/images/portfolio/pimyride.png"></a>
+</figure>
