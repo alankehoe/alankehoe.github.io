@@ -2,14 +2,31 @@
 layout: page
 tags: []
 image:
-  feature: feature-01.jpg
+  feature: feature-02.jpg
 ---
 
-# Who am I
+## About me
 
-I am a DCU graduate (computer applications), I have a passion for software development with a particular 
-interest in building full stack web applications. I have experience working with 
-Java, Ruby, Python, SQL, Javascript, Bash, TDD. I also have some experience working with Linux administration 
-and virtualisation. My final year project was a Fleet management and tracking application which used AngularJS, 
-Ruby on Rails and Android and prior to that my third year project was a open source car computer / logging tool which 
-used python to read serial data from a cars diagnostic port.
+Alan Kehoe is a software developer from Dublin, Ireland. 
+He has a strong passion for web development, and open source technologies. He has recently graduated 
+from Dublin City University with a B.Sc in Computer Applications. He has completed many interesting projects 
+during his studies some of which can be seen [here](/portfolio "Portfolio"). 
+
+## Interests
+
+I spend allot of time trying out new open source technology and creating small web applications
+in which I try to use the latest technology You can see some of my work on 
+[Github](https://github.com/alankehoe "Alan Kehoe Github"). Here is a finite list of some 
+things I spend my spare time playing with.
+
+* Web development
+* Mobile development
+* Automotive systems
+* Ruby on Rails
+* AngularJS
+* Linux administration
+* Virtualization
+
+## Contact me
+
+If you want to get in touch, send an [email](mailto:alankehoe111@gmail.com).
