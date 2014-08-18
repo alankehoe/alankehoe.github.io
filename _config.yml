@@ -2,7 +2,7 @@
 
 title:            Alan Kehoe
 locale:           en_US
-url:              http://localhost:4000
+#url:              http://alankehoe.com
 
 # Jekyll configuration
 
@@ -12,8 +12,6 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
-gems:
-  - jekyll-sitemap
 
 kramdown:
   auto_ids: true
