@@ -1,84 +1,71 @@
-'use strict';
-module.exports = function(grunt) {
-
-  grunt.initConfig({
-    jshint: {
-      options: {
-        jshintrc: '.jshintrc'
-      },
-      all: [
-        'Gruntfile.js',
-        'assets/js/*.js',
-        '!assets/js/plugins/*.js',
-        '!assets/js/scripts.min.js'
-      ]
-    },
-    uglify: {
-      dist: {
-        files: {
-          'assets/js/scripts.min.js': [
-            'assets/js/plugins/*.js',
-            'assets/js/_*.js'
-          ]
-        }
-      }
-    },
-    imagemin: {
-      dist: {
-        options: {
-          optimizationLevel: 7,
-          progressive: true
+module.exports = function (grunt) {
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+        banner: '\n/*!\n' +
+            ' * <%= pkg.name %> v<%= pkg.version %> by alan\n' +
+            '' +
+            ' * Copyright <%= grunt.template.today("yyyy") %> alankehoe.github.io\n' +
+            '' +
+            ' */\n',
+        less: {
+            'alankehoe.github.io': {
+                files: {
+                    'dist/<%= pkg.name %>.css': ["assets/app.less"]
+                }
+            }
         },
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.{png,jpg,jpeg}',
-          dest: 'images/'
-        }]
-      }
-    },
-    svgmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.svg',
-          dest: 'images/'
-        }]
-      }
-    },
-    watch: {
-      js: {
-        files: [
-          '<%= jshint.all %>'
-        ],
-        tasks: ['jshint','uglify']
-      }
-    },
-    clean: {
-      dist: [
-        'assets/js/scripts.min.js'
-      ]
-    }
-  });
+        concat: {
+            'alankehoe.github.io': {
+                src: [
+                    'bower_components/angular/angular.js',
+                    'bower_components/angulartics/src/angulartics.js',
+                    'bower_components/angulartics/src/angulartics-ga.js',
+                    'assets/app.js'
+                ],
+                dest: 'dist/<%= pkg.name %>.js'
+            }
+        },
+        uglify: {
+            options: {
+                banner: '<%= banner %>'
+            },
+            'alankehoe.github.io': {
+                src: ['dist/<%= pkg.name %>.js'],
+                dest: 'dist/<%= pkg.name %>.min.js'
+            }
+        },
+        cssmin: {
+            'alankehoe.github.io': {
+                options: {
+                    banner: '<%= banner %>'
+                },
+                files: {
+                    'dist/<%= pkg.name %>.min.css': ['dist/<%= pkg.name %>.css']
+                }
+            }
+        },
+        clean: {
+            js: ["dist/*.js", "!dist/*.min.js"],
+            css: ["dist/*.css", "!dist/*.min.css"]
+        },
+        watch: {
+            css: {
+                files: ['assets/less/**/*.less'],
+                tasks: ['less', 'cssmin']
+            },
+            js: {
+                files: ['assets/js/**/*.js'],
+                tasks: ['concat', 'uglify']
+            }
+        }
+    });
 
-  // Load tasks
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-svgmin');
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
-  // Register tasks
-  grunt.registerTask('default', [
-    'clean',
-    'uglify',
-    'imagemin',
-    'svgmin'
-  ]);
-  grunt.registerTask('dev', [
-    'watch'
-  ]);
-
+    grunt.registerTask('build', ['less', 'concat', 'uglify', 'cssmin', 'clean']);
 };
