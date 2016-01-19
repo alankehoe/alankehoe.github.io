@@ -1,0 +1,9 @@
+# Idea stuff
+.idea
+
+# Build stuff
+.fontcustom-manifest.json
+assets/fontcustom
+dist
+bower_components
+node_modules
